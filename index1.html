@@ -20,12 +20,34 @@
         }
 
         .tweet-button:hover{
-            background-color: orange;
+            /* background-color: orange; */
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+        }
+
+        .subscribe-button{
+            height: 40px; 
+            width: 120px; 
+            font-size: 15px;
+            color: black; 
+            border-radius: 20px;
+            border: none;
+            margin-right: 8px;
+            transition: opacity 0.15s;
+        }
+
+        .subscribe-button:hover{
+            /* background-color: rgba(0, 0, 0, 0.295); */
+            opacity: 0.8;
+        }
+
+        .subscribe-button:active{
+            /* background-color: rgba(0, 0, 0, 0.623); */
+            opacity: 0.5;
         }
 
     </style>
     <p>Pranshu</p>
     <button class="tweet-button" >Tweet</button>
-    <button style="height: 40px; width: 120px; font-size: 15px; color: black; border-radius: 20px; border-color: black;">Subscribe</button>
+    <button class="subscribe-button">Subscribe</button>
 </body>
 </html>
