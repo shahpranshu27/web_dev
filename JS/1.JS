@@ -38,3 +38,28 @@ const profile = {
 }
 
 console.log(profile)
+
+// ---------------------------------------------------------------------------------------
+
+let a = 4, b = 5;
+
+console.log(a)
+console.log(++a)
+console.log(a)
+console.log(a++)
+console.log(a)
+console.log(--a)
+console.log(a)
+console.log(a--)
+console.log(a)
+
+
+// ternary operator
+let age = 25;
+let result = age>18?'vote':'not vote';
+console.log(result)
+
+let result1 = age>18?console.log('vote'):console.log('not vote');
+
+let num = document.getElementById("enter number: ");
+console.log(num);
