@@ -1,7 +1,7 @@
-console.log("hi");
+// console.log("hi");
 
 fullName = "abc";
-console.log(fullName);
+// console.log(fullName);
 
 // var -> variable can be redeclared and updated. A global scope variable.
 // let -> variable can not be redeclared but can be updated. A block scope variable.
@@ -14,9 +14,9 @@ const student = {
     isPass : 1
 }
 
-console.log(student)
+// console.log(student)
 // console.log(student.name)
-console.log(student['name'])
+// console.log(student['name'])
 
 const product = {
     prodName : "Ball Pen",
@@ -26,7 +26,7 @@ const product = {
     priceOfTheDay : 270
 }
 
-console.log(product)
+// console.log(product)
 
 const profile = {
     userName : "abcd",
@@ -37,29 +37,40 @@ const profile = {
 
 }
 
-console.log(profile)
+// console.log(profile)
 
 // ---------------------------------------------------------------------------------------
 
 let a = 4, b = 5;
 
-console.log(a)
-console.log(++a)
-console.log(a)
-console.log(a++)
-console.log(a)
-console.log(--a)
-console.log(a)
-console.log(a--)
-console.log(a)
+// console.log(a)
+// console.log(++a)
+// console.log(a)
+// console.log(a++)
+// console.log(a)
+// console.log(--a)
+// console.log(a)
+// console.log(a--)
+// console.log(a)
 
 
 // ternary operator
 let age = 25;
 let result = age>18?'vote':'not vote';
-console.log(result)
+// console.log(result)
 
-let result1 = age>18?console.log('vote'):console.log('not vote');
+// let result1 = age>18?console.log('vote'):console.log('not vote');
 
-let num = document.getElementById("enter number: ");
-console.log(num);
+// let num = document.getElementById("enter number: ");
+// console.log(num);
+
+// -------------------------------------------------------------------------------------
+
+for(let i=0; i<5; i++){
+    console.log(i);
+}
+let i=0;
+while(i<5){
+    console.log(5);
+    i++;
+}
