@@ -110,3 +110,12 @@ while(userNum != guessNum){
 }
 
 console.log("Congrats!")
+
+// ---------------------------------------------------------------------------------
+
+let obj = {
+    item: 'pen',
+    cost: 120
+}
+
+console.log(`the cost of ${obj.item} is ${obj.cost} rs`)
