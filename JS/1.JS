@@ -96,3 +96,17 @@ let student1 = {
 for(let key in student1){
     console.log(key," ");
 }
+
+// -----------------------------------------------------------------------------------
+// Guess the number
+
+let guessNum = 25;
+
+let userNum = prompt("Guess the number: ")
+console.log(userNum)
+
+while(userNum != guessNum){
+    userNum = prompt("Wrong guess! Enter again: ")
+}
+
+console.log("Congrats!")
