@@ -74,3 +74,25 @@ while(i<5){
     console.log(5);
     i++;
 }
+
+// -------------------------------------------------------------------------------------
+// for-of loop
+
+let str = "abcd";
+
+for(let i of str){
+    console.log(i, " ");
+}
+
+// ------------------------------------------------------------------------------------
+// for-in loop
+
+let student1 = {
+    name: "abcde",
+    cgpa: 10,
+    rollNo: 123
+}
+
+for(let key in student1){
+    console.log(key," ");
+}
