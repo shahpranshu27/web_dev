@@ -78,11 +78,14 @@ while(i<5){
 // -------------------------------------------------------------------------------------
 // for-of loop
 
-let str = "abcd";
+let str = "aBcd";
 
 for(let i of str){
     console.log(i, " ");
 }
+console.log(str)
+console.log(str.toUpperCase())
+console.log(str.toLowerCase())
 
 // ------------------------------------------------------------------------------------
 // for-in loop
@@ -102,7 +105,7 @@ for(let key in student1){
 
 let guessNum = 25;
 
-let userNum = prompt("Guess the number: ")
+// let userNum = prompt("Guess the number: ")
 console.log(userNum)
 
 while(userNum != guessNum){
@@ -113,6 +116,7 @@ console.log("Congrats!")
 
 // ---------------------------------------------------------------------------------
 
+// Template Literals
 let obj = {
     item: 'pen',
     cost: 120
