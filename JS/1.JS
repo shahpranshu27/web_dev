@@ -103,16 +103,16 @@ for(let key in student1){
 // -----------------------------------------------------------------------------------
 // Guess the number
 
-let guessNum = 25;
+// let guessNum = 25;
 
-// let userNum = prompt("Guess the number: ")
-console.log(userNum)
+// // let userNum = prompt("Guess the number: ")
+// console.log(userNum)
 
-while(userNum != guessNum){
-    userNum = prompt("Wrong guess! Enter again: ")
-}
+// while(userNum != guessNum){
+//     userNum = prompt("Wrong guess! Enter again: ")
+// }
 
-console.log("Congrats!")
+// console.log("Congrats!")
 
 // ---------------------------------------------------------------------------------
 
@@ -123,3 +123,38 @@ let obj = {
 }
 
 console.log(`the cost of ${obj.item} is ${obj.cost} rs`)
+
+// --------------------------------------------------------------------------------
+
+// Functions and Methods
+
+function sum(a,b){
+    // console.log(a+b)
+    s = a+b;
+    return s;
+}
+
+// sum(1,2)
+let val = sum(2,3)
+console.log(val)
+
+// Arrow function
+const mul = (a,b) => {
+    console.log(a*b);
+}
+
+function countVowels(string){
+    let count = 0
+    for(const char of string){
+        if(char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u'){
+            count++;
+        }
+    }
+    return count;
+}
+
+let arr = [1,2,3,4]
+
+arr.forEach(function printVal(val){ // val -> value at each index
+    console.log(val);
+})
