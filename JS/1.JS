@@ -158,3 +158,10 @@ let arr = [1,2,3,4]
 arr.forEach(function printVal(val){ // val -> value at each index
     console.log(val);
 })
+
+// map method
+let nums = [12,34,56]
+
+nums.map((val) => {
+    console.log(val)
+})
